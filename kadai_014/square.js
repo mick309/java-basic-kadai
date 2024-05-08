@@ -1,5 +1,6 @@
-const dobule = (num) => {
-    return num * 2;
+const square = (num) => {
+    const result = num ** 2;
+    console.log(result);
 }
 
-console.log(dobule(50));
+square(10);

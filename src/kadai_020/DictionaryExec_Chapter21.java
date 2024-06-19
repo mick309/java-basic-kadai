@@ -11,9 +11,6 @@ public class DictionaryExec_Chapter21 {
 		String[] searchWords = { "apple", "banana", "grape", "orange" };
 
 		// 配列に含まれる各単語について辞書を検索
-		for (String word : searchWords) {
-			dictionary.setSearchWord(word); // 検索したい単語を設定
-			dictionary.searchDic(); // 辞書を検索し、結果を出力
-		}
+		dictionary.searchDic(searchWords); // 配列を渡して辞書を検索し、結果を出力
 	}
 }
